@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<page>
-<![CDATA[
-<!doctype html>
-<html>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Riverbend Tutoring | After-School Coaching &amp; Test Prep</title>
-        <base href="https://cdn.jsdelivr.net/gh/lucideproxy/svg@master/">
+        <base href="https://cdn.jsdelivr.net/gh/lucideproxy/svg@master/" />
         <meta
             name="description"
             content="Riverbend Tutoring runs weekly academic coaching, subject-focused lessons, and standardized test preparation for students in grades six through twelve across Portland and online nationwide."
@@ -34,25 +32,24 @@
             type="image/png"
             href="./branding/lucide.png"
         />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
         <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-        <script
-            async
+        <script async="async"
             src="https://www.googletagmanager.com/gtag/js?id=G-0VL3ZSBXDH"
         ></script>
-        <script>
+        <script><![CDATA[
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
             gtag("js", new Date());
             gtag("config", "G-0VL3ZSBXDH");
-        </script>
-        <script src="https://c.vipersfutbol.com/script.js" defer></script>
+        ]]></script>
+        <script src="https://c.vipersfutbol.com/script.js" defer="defer"></script>
         <script src="./m1uy7/hor1y.js?v=mqd9w6nt"></script>
         <script src="./0w63d/htg4f.js?v=mqd9w6nt"></script>
-      <script type="module" crossorigin src="./assets/5a5tdjwlds.js"></script>
-      <link rel="stylesheet" crossorigin href="./assets/9aidcxrgt5.css">
+      <script type="module" crossorigin="anonymous" src="./assets/5a5tdjwlds.js"></script>
+      <link rel="stylesheet" crossorigin="anonymous" href="./assets/9aidcxrgt5.css" />
     </head>
     <body>
         <div id="root">
@@ -168,6 +165,3 @@
         </div>
     </body>
 </html>
-</html>
-]]>
-</page>
