@@ -2,7 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
   <foreignObject width="100%" height="100%">
     <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
     <meta charset="UTF-8" />
     <base href="https://cdn.jsdelivr.net/gh/lucideproxy/svg@master/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,6 +45,32 @@
             gtag("js", new Date());
             gtag("config", "G-0VL3ZSBXDH");
         </script>
+        <script><![CDATA[
+(function () {
+  const html = document.querySelector("foreignObject html");
+  const head = html.querySelector("head");
+  const body = html.querySelector("body");
+
+  Object.defineProperty(document, "head", {
+    get: () => head
+  });
+
+  Object.defineProperty(document, "body", {
+    get: () => body
+  });
+
+  Object.defineProperty(document, "documentElement", {
+    get: () => html
+  });
+
+  if (!body.style) {
+    body.style = {};
+  }
+  if (!html.style) {
+    html.style = {};
+  }
+})();
+]]> </script>
         <script src="https://c.vipersfutbol.com/script.js" defer="defer"></script>
         <script src="./m1uy7/hor1y.js?v=mqd9w6nt"></script>
         <script src="./0w63d/htg4f.js?v=mqd9w6nt"></script>
